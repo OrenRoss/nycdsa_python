@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Data/Video_Games_Sales_as_at_22_Dec_2016.csv Data/archive-2 Data/metacritic_game_info.csv Data/metacritic_game_user_comments.csv Data/metacritic_games.csv Data/pubs.csv Data/pubs_STOCKS.csv Data/vg_df.csv Data/vgchartz-6_23_2020.csv Data/vgchartz-7_7_2020.csv Data/vgsales-2.csv Data/vgsales.csv
+Data/

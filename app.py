@@ -1,3 +1,4 @@
+import json
 import pandas as pd 
 import dash
 import dash_core_components as dcc
@@ -11,8 +12,9 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div([
     
-    html.P("x-axis:"),
+    
     html.Label('Dropdown'),
+    html.P("x-axis:"),
     dcc.Dropdown(
         options=[
             {'label': 'User Score', 'value': 'user_score'},
